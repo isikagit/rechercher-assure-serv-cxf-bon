@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * 
- * @author Patrice 1
+ * @author Patrice 1 3
  *
  */
 public interface PersonneDao {

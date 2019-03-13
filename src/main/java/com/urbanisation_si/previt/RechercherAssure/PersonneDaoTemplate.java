@@ -9,14 +9,14 @@ import org.springframework.orm.hibernate5.HibernateTemplate;
 
 /**
  * 
- * @author Patrice 1
+ * @author Patrice 1 3
  *
  */
 public class PersonneDaoTemplate {
 	private HibernateTemplate template;   
 	
-	//on doit ajouter une méthode set pour le conteneur Spring 
-	// qui puisse connaitre l’objet lors de la création d’objet et l’injection de dépendance.  
+	//on doit ajouter une mï¿½thode set pour le conteneur Spring 
+	// qui puisse connaitre lï¿½objet lors de la crï¿½ation dï¿½objet et lï¿½injection de dï¿½pendance.  
 	public void setTemplate(HibernateTemplate template) {  
 	    this.template = template;  
 	} 
@@ -36,7 +36,7 @@ public class PersonneDaoTemplate {
 	    template.delete(e);  
 	}  
 	
-	// methode pour selectionner une personne en utilisant l’id 
+	// methode pour selectionner une personne en utilisant lï¿½id 
 	public Personne getById(int id){  
 	    Personne e=(Personne)template.get(Personne.class,id);  
 	    return e;  
