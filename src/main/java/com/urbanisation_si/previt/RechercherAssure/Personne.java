@@ -17,7 +17,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 /**
  * 
- * @author Patrice 1 3 4
+ * @author Patrice 1 3 4 5
  *
  */
 @Entity

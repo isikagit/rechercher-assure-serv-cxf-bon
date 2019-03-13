@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * 
- * @author Patrice 1 2 3 4
+ * @author Patrice 1 2 3 4 5
  *
  */
 public class Main {

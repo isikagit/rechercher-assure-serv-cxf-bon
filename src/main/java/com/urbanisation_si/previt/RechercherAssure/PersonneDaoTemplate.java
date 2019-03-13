@@ -9,7 +9,7 @@ import org.springframework.orm.hibernate5.HibernateTemplate;
 
 /**
  * 
- * @author Patrice 1 3 4
+ * @author Patrice 1 3 4 5
  *
  */
 public class PersonneDaoTemplate {
