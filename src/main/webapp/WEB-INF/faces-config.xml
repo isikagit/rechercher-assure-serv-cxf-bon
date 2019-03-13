@@ -7,6 +7,6 @@
         <el-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</el-resolver>
     </application>
     
-    <!--  test pour git 1 3-->
+    <!--  test pour git 1 3 4-->
     
 </faces-config>
